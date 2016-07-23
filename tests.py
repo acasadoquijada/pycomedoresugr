@@ -19,6 +19,13 @@ class Test(unittest.TestCase):
         
         self.assertEqual(menu_semana_diccionario_info, menu_semana_diccionario_obtenido)
 
+    
+    def test_menu_dia(self):
+    
+        menu_dia_obtenido = menu_dia("Lunes","Test/test.html")
+    
+        self.assertEqual(menu_dia_info, menu_dia_obtenido)
+        
 
 
 if __name__ == '__main__':

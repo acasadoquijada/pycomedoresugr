@@ -1,10 +1,12 @@
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
+from datetime import datetime as date
+
 import re
 import json
-from datetime import datetime as date
 import locale
 import codecs
+
 
 def get_menu_semana(url="http://scu.ugr.es/"):
 
@@ -57,15 +59,15 @@ def menu_semana_diccionario(url="http://scu.ugr.es/"):
             
     return d
 
-def menu_semana_json():
+def menu_semana_json(url="http://scu.ugr.es/"):
 
-    menu = menu_semana_diccionario()
+    menu = menu_semana_diccionario(url)
 
     menu_json = json.dumps(menu,ensure_ascii=False)
     
     return menu_json
 
-def menu_dia(dia=""):
+def menu_dia(dia="",url="http://scu.ugr.es/"):
     
     if dia == "":
         locale.setlocale(locale.LC_ALL, 'es_ES.utf8')
@@ -77,7 +79,7 @@ def menu_dia(dia=""):
     
     if dia in dias:
     
-        menu_semana = menu_semana_diccionario()
+        menu_semana = menu_semana_diccionario(url)
     
         return menu_semana[dia]
         
@@ -87,6 +89,6 @@ def menu_dia(dia=""):
     
 if __name__ == '__main__':
     
-    print(menu_dia())
+    print(menu_dia('Lunes'))
     
    
