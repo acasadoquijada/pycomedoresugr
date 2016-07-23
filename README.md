@@ -1,5 +1,6 @@
 # pycomedores
 [![Build Status](https://travis-ci.org/acasadoquijada/pycomedoresugr.svg?branch=master)](https://travis-ci.org/acasadoquijada/pycomedoresugr)
+[![Coverage Status](https://coveralls.io/repos/github/acasadoquijada/pycomedoresugr/badge.svg?branch=master)](https://coveralls.io/github/acasadoquijada/pycomedoresugr?branch=master)
 
 ##Introducción
 
