@@ -1,4 +1,5 @@
 # pycomedores
+[![Build Status](https://travis-ci.org/acasadoquijada/pycomedoresugr.svg?branch=master)](https://travis-ci.org/acasadoquijada/pycomedoresugr)
 
 ##Introducción
 
