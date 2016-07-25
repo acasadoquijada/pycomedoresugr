@@ -1,5 +1,6 @@
 # pycomedores
 [![banda](https://img.shields.io/pypi/v/pycomedoresugr.svg)](https://pypi.python.org/pypi/pycomedoresugr)
+[![PyPi downloads](https://pypip.in/d/pycomedoresugr/badge.png)](https://crate.io/packages/pycomedoresugr/)
 [![Build Status](https://travis-ci.org/acasadoquijada/pycomedoresugr.svg?branch=master)](https://travis-ci.org/acasadoquijada/pycomedoresugr)
 [![Coverage Status](https://coveralls.io/repos/github/acasadoquijada/pycomedoresugr/badge.svg?branch=master)](https://coveralls.io/github/acasadoquijada/pycomedoresugr?branch=master)
 
