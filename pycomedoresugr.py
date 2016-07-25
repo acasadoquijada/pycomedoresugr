@@ -87,8 +87,4 @@ def menu_dia(dia="",url="http://scu.ugr.es/"):
         
         return ""
     
-if __name__ == '__main__':
-    
-    print(menu_dia('Lunes'))
-    
    
