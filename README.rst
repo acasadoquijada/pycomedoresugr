@@ -1,9 +1,10 @@
 ==============
 pycomedoresugr
 ==============
-.. image:: https://travis-ci.org/acasadoquijada/pycomedoresugr.svg?branch=master  target: https://travis-ci.org/acasadoquijada/pycomedoresugr
-.. image:: https://coveralls.io/repos/github/acasadoquijada/pycomedoresugr/badge.svg?branch=master :target: https://coveralls.io/github/acasadoquijada/pycomedoresugr?branch=master
-
+.. image:: https://travis-ci.org/acasadoquijada/pycomedoresugr.svg?branch=master
+    :target: https://travis-ci.org/acasadoquijada/pycomedoresugr
+.. image:: https://coveralls.io/repos/github/acasadoquijada/pycomedoresugr/badge.svg?branch=master 
+   :target: https://coveralls.io/github/acasadoquijada/pycomedoresugr?branch=master 
 Introducción
 ------------
 Esta biblioteca realizada usando python3 permite acceder a los datos del menu de los comedores de la Universidad de Granada de una manera sencilla.
